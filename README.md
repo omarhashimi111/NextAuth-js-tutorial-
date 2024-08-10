@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [NextAuth.js](https://next-auth.js.org/) Tutorial in Next.js [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+![NextAuth](/public/nextauth.png)
 
 ## Getting Started
 
-First, run the development server:
+### Clone the code
+### You need a database I used MySQL in my local server 
+
+Install the the dependencies
 
 ```bash
+npm i
+# or
+yarn add
+# then
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### This is the database model I have used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Database Model](/public/SqlQuery.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### With this one Repo you can learn all you need in NextAuth
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+from OAuth with Google, Facebook... to Custom Authenrication and Authorization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+all code is well commented one hour of reading and playing around with the code will safe you alot of time
 
-## Deploy on Vercel
+- Multirole user model.
+- Protected Routes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+everything you need to know in term of secure authentication thanks to NextAuth.js they made it easy to use
+
+## Default Signin page very customizable
+
+![Default Signin Page](/public/defaultSignin.png)
+
+## Custom Register Page integrated with NextAuth
+### this page is not visible or linked go to localhost:3000/register
+
+![Register Page](/public/myRegister.png)
+
+## last but not least Home Page 
+
+### with Server side Route and client side Route and Admin Page (visible to Admin Only)
+### there is also a login page that is not Linked just visit it localhost:3000/login
+
+go to those pages and routes to learn the code and logic behind them
+
+![Home Page](/public/homePage.png)
